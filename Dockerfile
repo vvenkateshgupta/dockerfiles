@@ -6,6 +6,6 @@ MAINTAINER Venkatesh Gupta <vvenkateshgupta@gmail.com>
 
 RUN apt-get update
 
-CMD ["echo", "Hello World my first docker imag build through git trigger  - Venkatesh"]
+CMD ["echo", "Hello World!! my first docker imag build through git trigger  - Venkatesh"]
 
 

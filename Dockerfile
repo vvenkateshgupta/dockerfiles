@@ -9,7 +9,7 @@ RUN apt-get update && \
 
 WORKDIR /tmp
 
-ADD /Users/venkateshgupta/PycharmProjects/test/new.py new.py
+COPY /Users/venkateshgupta/PycharmProjects/test/new.py new.py
 
 CMD ["echo", "Hello World my first docker imag build through git trigger , FRom aws machine - Venkatesh Gupta"]
 CMD ["python3", "new.py"]

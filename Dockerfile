@@ -10,6 +10,6 @@ RUN apt-get update && \
 ADD /Users/venkateshgupta/PycharmProjects/test/new.py /tmp/new.py
 
 CMD ["echo", "Hello World my first docker imag build through git trigger , FRom aws machine - Venkatesh Gupta"]
-CMD ["python", "/tmp/new.py"]
+CMD ["python3", "/tmp/new.py"]
 
 
